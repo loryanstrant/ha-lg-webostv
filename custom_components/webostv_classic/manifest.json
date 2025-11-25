@@ -1,0 +1,16 @@
+{
+  "domain": "webostv_classic",
+  "name": "LG webOS TV Classic",
+  "codeowners": ["@loryanstrant"],
+  "config_flow": true,
+  "documentation": "https://github.com/loryanstrant/ha-lg-webostv",
+  "iot_class": "local_push",
+  "loggers": ["aiowebostv"],
+  "requirements": ["aiowebostv==0.7.5"],
+  "ssdp": [
+    {
+      "st": "urn:lge-com:service:webos-second-screen:1"
+    }
+  ],
+  "version": "1.0.0"
+}
