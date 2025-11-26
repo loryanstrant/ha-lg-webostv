@@ -1,4 +1,9 @@
 {
   "name": "LG webOS TV Classic",
+  "content_in_root": false,
+  "zip_release": true,
+  "filename": "ha_lg_webostv_classic.zip",
   "render_readme": true
+  "hide_default_branch": false,
+  "homeassistant": "2023.1.0"
 }
