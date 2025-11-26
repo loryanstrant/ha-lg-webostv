@@ -19,14 +19,14 @@ jobs:
 
       - name: Create zip file
         run: |
-          cd custom_components/ha_lg_webostv_classic
-          zip -r ../../ha_lg_webostv_classic.zip . -x "__pycache__/*" "*.pyc" "*.pyo"
+          cd custom_components/webostv_classic
+          zip -r ../../webostv_classic.zip . -x "__pycache__/*" "*.pyc" "*.pyo"
 
       - name: Upload zip to release
         uses: svenstaro/upload-release-action@v2
         with:
           repo_token: ${{ secrets.GITHUB_TOKEN }}
-          file: ./ha_lg_webostv_classic.zip
-          asset_name: ha_lg_webostv_classic.zip
+          file: ./webostv_classic.zip
+          asset_name: webostv_classic.zip
           tag: ${{ github.event.release.tag_name }}
           overwrite: true
