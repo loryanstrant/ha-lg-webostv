@@ -2,13 +2,11 @@ turn_on:
   description: "When a request to turn on the TV is made."
   fields:
     device_id:
-      description: "The device ID(s) to monitor for turn on requests."
       required: false
       selector:
         device:
           integration: webostv_classic
     entity_id:
-      description: "The entity ID(s) to monitor for turn on requests."
       required: false
       selector:
         entity:
