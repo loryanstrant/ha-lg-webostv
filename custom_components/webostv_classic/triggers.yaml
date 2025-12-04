@@ -1,0 +1,13 @@
+turn_on:
+  description: "When a request to turn on the TV is made."
+  fields:
+    device_id:
+      required: false
+      selector:
+        device:
+          integration: webostv_classic
+    entity_id:
+      required: false
+      selector:
+        entity:
+          integration: webostv_classic
