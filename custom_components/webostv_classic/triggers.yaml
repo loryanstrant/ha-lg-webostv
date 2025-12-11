@@ -1,5 +1,4 @@
 turn_on:
-  description: "When a request to turn on the TV is made."
   fields:
     device_id:
       required: false
