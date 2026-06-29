@@ -1,6 +1,14 @@
 # LG webOS TV Classic
 
-[![hacs_badge](https://img.shields.io/badge/HACS-Custom-41BDF5.svg)](https://github.com/hacs/integration)
+[![HACS](https://img.shields.io/badge/HACS-Custom-41BDF5?style=flat-square)](https://github.com/hacs/integration)
+[![Release](https://img.shields.io/github/v/release/loryanstrant/HA-LG-webOSTV?style=flat-square)](https://github.com/loryanstrant/HA-LG-webOSTV/releases)
+[![Release date](https://img.shields.io/github/release-date/loryanstrant/HA-LG-webOSTV?style=flat-square)](https://github.com/loryanstrant/HA-LG-webOSTV/releases)
+[![Downloads](https://img.shields.io/github/downloads/loryanstrant/HA-LG-webOSTV/total?style=flat-square)](https://github.com/loryanstrant/HA-LG-webOSTV/releases)
+[![License](https://img.shields.io/github/license/loryanstrant/HA-LG-webOSTV?style=flat-square)](LICENSE)
+[![Last commit](https://img.shields.io/github/last-commit/loryanstrant/HA-LG-webOSTV?style=flat-square)](https://github.com/loryanstrant/HA-LG-webOSTV/commits)
+[![Stars](https://img.shields.io/github/stars/loryanstrant/HA-LG-webOSTV?style=flat-square)](https://github.com/loryanstrant/HA-LG-webOSTV/stargazers)
+
+[![Open in HACS](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=loryanstrant&repository=HA-LG-webOSTV&category=integration)
 
 An alternative implementation of the LG webOS TV integration for Home Assistant with classic availability behavior.
 
